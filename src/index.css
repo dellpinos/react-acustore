@@ -777,3 +777,14 @@ button:not(:disabled),
     z-index: 10;
   }
 }
+
+/* Otras clases */
+.card__producto {
+    min-height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+
+}
