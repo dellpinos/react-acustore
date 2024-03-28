@@ -779,12 +779,25 @@ button:not(:disabled),
 }
 
 /* Otras clases */
+.header__contenedor-logo {
+    display: flex;
+    align-items: center;
+
+    >img {
+        height: 150px;
+    }
+}
+
+.header__logo {
+    margin: 20px 0;
+    color: #FFF;
+    >span {
+        color: #e99400;
+    }
+}
 .card__producto {
     min-height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
-
 }

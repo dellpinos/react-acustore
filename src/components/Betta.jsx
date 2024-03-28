@@ -1,5 +1,5 @@
 
-const Betta = ({post, addToCart}) => {
+const Betta = ({post, addToCart }) => {
 
     const { image, name, description, price } = post
 
